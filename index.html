@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>The Daily Portfolio</title>
+</head>
+
+<body>
+    <main>
+        <div class="heading">
+            <span>The</span>
+            <h1><b>Russell Bill</b></h1>
+                <p>Unfolding the Stories & Showcasing the Creativity </p>
+        </div>
+        <nav>
+            <a href="#" class="logo circle">Retro Portfolio</a>
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <section class="section-1" id="about">
+            <h2>Leading the Capstone Project</h2>
+            <div class="content">
+                <div class="text">
+                    <div class="left">
+                        <p><span>I</span>n the wake of the COVID-19 pandemic, 
+                            ensuring the health and safety of students and 
+                            staff within educational institutions has become a top priority.
+                             As the leader of our capstone project, 
+                             I had the privilege of guiding a talented team in developing 
+                             the Sensory Signal Scanner (SSS) Health Monitoring System,
+                              a comprehensive solution designed to enhance health monitoring
+                               and safety protocols in schools.</p>
+
+                        <p>The Sensory Signal Scanner (SSS) Health Monitoring System is an innovative project aimed at automating the process of temperature screening 
+                            and health monitoring within educational institutions. </p>
+
+                        <p>The system integrates <small class="circle">hardware and software</small> to detect 
+                            elevated body temperatures, capture snapshots of individuals, 
+                            store data in a centralized database, and send SMS alerts to school officials. 
+                            This seamless integration ensures timely and effective responses to potential health threats,
+                             thereby maintaining a safe learning environment.</p>
+
+                        <p class="last">
+
+                            <span>Leadership</span>
+                            As the project leader, my role involved coordinating efforts, ensuring clear communication, 
+                            and maintaining a cohesive vision for the project. 
+                            I began by outlining a clear vision for the SSS Health Monitoring System. 
+                            We held brainstorming sessions to define project goals,
+                             scope, and milestones. My priority was to ensure that every 
+                             team member understood our objectives and felt confident in their roles.
+                        </p>
+                        <div class="side-heading">Information Technology </div>
+                    </div>
+                    <div class="right">
+
+                        <p></p>
+
+                        <p>Understanding the strengths and expertise of each team member was crucial for effective task delegation.
+                             By assigning responsibilities based on individual skills, we maximized efficiency and fostered a collaborative
+                              environment. Regular meetings and progress updates kept everyone aligned and motivated.</p>
+
+                        <p>Leading a technically complex project required staying abreast of both hardware and software challenges.
+                             I facilitated knowledge-sharing sessions, encouraged peer learning, and provided guidance on technical hurdles.
+                              This approach empowered team members to develop innovative solutions and troubleshoot issues effectively.</p>
+
+                        <p>Ensuring the reliability and accuracy of our system was paramount. I established rigorous testing protocols
+                             to validate the functionality of both hardware components and software algorithms. 
+                             By prioritizing quality assurance, we could guarantee the system’s efficacy in real-world scenarios.</p>
+
+                        <p>Leading the <small class="circle">SSS Health Monitoring System</small> project came with its share of challenges. 
+                            Balancing hardware and software integration, ensuring data security, 
+                            and maintaining user privacy were critical concerns. Through collaborative problem-solving 
+                            and continuous iteration, we overcame these obstacles and delivered a robust, reliable system.</p>
+                        <p>The Sensory Signal Scanner (SSS) Health Monitoring System represents a significant step forward
+                             in ensuring the health and safety of educational institutions during the COVID-19 pandemic. 
+                             Leading this project was a transformative experience, showcasing the power of teamwork, 
+                             innovation, and effective leadership. Our system not only addresses current health 
+                             challenges but also sets a precedent for future advancements in health monitoring and safety protocols.</p>
+                    </div>
+                </div>
+                <div class="video">
+                    <video src="video/codingretro.mp4" autoplay muted loop></video>
+                </div>
+            </div>
+        </section>
+        <section class="section-2" id="work">
+            <div class="content">
+                <div class="text">
+                    <h2>How you will contact me?</h2>
+                    <p>Hello! I'm [Your Name], a dedicated student pursuing a 
+                        Bachelor of Science in Information Technology <small class="circle">(BSIT)</small>. My academic journey has been driven by a 
+                        passion for technology and a desire to make a meaningful impact in the digital world. 
+                        Through my studies, I've gained a solid foundation. in programming, database management, networking, and cybersecurity, equipping me with the skills needed to excel in the ever-evolving field of IT.
+                         My goal is to leverage this knowledge to develop innovative solutions and contribute 
+                         to the advancement of technology in various industries.</p>
+
+                    <div class="tagline">
+                        russellbillnuqui@gmail.com
+                    </div>
+                    <div class="tagline">
+                        www.linkedin.com/in/russell-bill-nuqui-692b63244
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="images/1.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <div class="marquee-container" id="contact">
+            <div class="marquee">
+                Let's Create Something Together <a href="mailto:info@idk.com">EMAIL ME</a>
+            </div>
+        </div>
+    </main>
+    <div class="mouse-trail">
+        <div class="box">R</div>
+        <div class="box">E</div>
+        <div class="box">T</div>
+        <div class="box">R</div>
+        <div class="box">O</div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+
+        
+        gsap.from("h1 b", {
+            y: 100,
+            opacity: 0,
+            duration: 0.9
+        })
+
+        gsap.from(".heading p", {
+            y: 10,
+            opacity: 0,
+            delay: 0.2,
+            duration: 0.5
+        })
+
+        gsap.from(".logo", {
+            x: -100,
+            opacity: 0,
+            delay: 0.2,
+            duration: 0.5
+        })
+
+        gsap.from(".section-1", {
+            y: 1000,
+            opacity: 0,
+            delay: 0.2,
+            duration: 1
+        })
+
+        document.querySelector(".section-1").addEventListener("mousemove", (e) => {
+            gsap.to(".box", {
+                x: e.clientX,
+                y: e.clientY,
+                stagger: 0.1,
+                opacity: 1,
+                display: "grid",
+            });
+        });
+        document.querySelector(".section-1").addEventListener("mouseout", (e) => {
+            gsap.to(".box", {
+                x: e.clientX,
+                y: e.clientY,
+                stagger: 0.1,
+                opacity: 0,
+                display: "none",
+            });
+        });
+    </script>
+</body>
+
+</html>
